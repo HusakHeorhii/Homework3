@@ -11,7 +11,7 @@ body {
 
 .card {
   margin: 10px;
-  padding: 15px;
+  padding: 10px;
   width: 400px;
   height: 350px;
   border: 2px solid #282828;
@@ -21,23 +21,20 @@ body {
 .fa-youtube {
   color: #f00;
   font-size: 75px;
-  margin-left: 38%;
-  margin-right: 38%;
-  margin-bottom: 15px;
+  margin: 10px 0px 15px 145px;
 }
 
 .card-title {
   text-transform: uppercase;
   color: #282828;
   text-align: center;
-  margin: 15px 0px;
+  margin: 5px 0px 10px;
 }
 
 .card-text {
   color: #282828;
   text-align: center;
-  margin: 30px 0px;
-  
+  margin: 10px 0px 70px;
 }
 
 a {
@@ -53,8 +50,9 @@ a {
   font-size: 20px;
   margin-left: 90px;
   margin-bottom: 10px;
-  margin: 10px 90px;
+  margin: 30px 90px 5px;
   text-decoration: none;
+  text-align: center;
 }
 
 .card:hover,
