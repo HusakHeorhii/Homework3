@@ -1,3 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+.card {
+  margin: 10px;
+  padding: 15px;
+  width: 400px;
+  height: 350px;
+  border: 2px solid #282828;
+  border-radius: 15px;
+}
+
+.fa-youtube {
+  color: #f00;
+  font-size: 75px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  text-transform: uppercase;
+  color: #282828;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.card-text {
+  color: #282828;
+  text-align: center;
+  margin: 30px 0px;
+  
+}
+
+.card-button {
+  text-transform: uppercase;
+  background-color: #282828;
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px 25px;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  margin: auto 90px;
+  text-decoration: none;
+}
+
+.card:hover,
+.card:hover > .fa-youtube,
+.card:hover > .card-text,
+.card:hover > .card-title {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.card:hover .card-button {
+  background-color: #0ff;
 }
